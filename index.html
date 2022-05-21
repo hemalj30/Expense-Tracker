@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="style.css">
+        <title>ExpenseTracker</title>
+
+    </head>
+
+    <body>
+
+        <h1 class="mainh">EXPENSE TRACKER</h1>
+
+        <div class="mcontainer">
+
+            <h2  class="tbalancetext" style="font-size: 32px;">Total Balance</h2>
+            <h4 class="tbalance" id="tbalance" class="tbalance">$0.00</h4>
+
+            <div class="ie">
+
+                <div class="firstdiv">
+                    <h2 style="font-size: 32px;">Income</h2>
+                    <p class="income" id="income" class="income">$0.00</p>
+                </div>
+
+                
+                <div class="seconddiv ">
+                    <h2 style="font-size: 32px;">Expense</h2>
+                    <p class="expense" id="expense" class="expense">$0.00</p>
+                </div>
+
+
+            </div>
+
+            <h2 class="history" style="font-size: 32px;">History</h2>
+            <ul class="list" id="list">
+                <li class="listitem"></li>
+            </ul>
+
+
+            <h2 class="new">Add New Transaction</h2>
+
+            <form class="form" id="form" class="form">
+
+                <div class="form-control">
+
+                    <label for="item" class="flabel">Name</label>
+                    <input type="text" id="item" class="item" name="item" placeholder="Enter Text...">
+
+                </div>
+
+                <div class="form-control">
+
+                    <label for="amount" class="slabel">Amount (negative - expense, positive - income)</label>
+                    <input type="number" name="amount" id="amount" class="amount" placeholder="Enter amount...">
+                    
+                </div>
+
+                <input type="button" class="button" value="Add">
+
+
+            </form>
+
+
+
+        </div>
+
+
+        <script src="script.js"></script>
+
+    </body>
+
+
+</html>

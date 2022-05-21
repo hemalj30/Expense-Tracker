@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+.mainh{
+
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(0, 156, 135);
+}
+
+
+body{
+
+    margin: 0px 0px 0px 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 243, 255);
+    
+}
+
+.mcontainer{
+
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(243, 106, 255);
+    
+}
+
+
+.tbalancetext{
+
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.tbalance{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.tbalance,.income,.expense{
+
+    font-size: 25px;
+}
+
+
+.ie{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.ie > div{
+    
+    width: 50%;
+    text-align: center;
+}
+
+.firstdiv, .seconddiv{
+
+    /*border: 1px solid red;*/
+}
+
+
+/*.firstdiv > h2, .firstdiv > p, .seconddiv > h2, .seconddiv > p{
+
+    border: 1px solid purple;
+}*/
+
+.firstdiv > h2, .seconddiv > h2{
+
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.firstdiv > p, .seconddiv > p{
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+
+.income{
+
+    color: rgb(0, 255, 42);
+
+}
+
+.expense{
+
+    color: red;
+}
+
+
+.history{
+
+    /*border: 1px solid red;*/
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+
+.list{
+
+    /*border: 1px solid red;*/
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+
+
+}
+
+.new{
+
+    font-size: 32px;
+    width: 90%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+
+.form{
+
+    /*border: 1px solid purple;*/
+    width: 90%;
+    margin-top: 0%;
+
+}
+
+
+
+.form-control{
+
+    display: block;
+    /*border: 1px solid green;*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+.flabel{
+
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.item{
+
+    height: 40px;
+    width: 100%;
+
+
+}
+
+
+.slabel{
+
+
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.amount{
+
+    height: 40px;
+    width: 100%;
+
+
+}
+
+
+.button{
+
+    height: 40px;
+    width: 100%;
+    background-color: rgb(0, 255, 42);
+}
